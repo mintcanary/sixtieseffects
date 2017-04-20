@@ -1,0 +1,184 @@
+/* Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Styles */
+
+p {
+	padding-bottom:5px;
+}
+
+a:link,
+a:visited {
+	color: #2f3233;
+	text-decoration:underline;
+}
+a:hover {
+	color:#000000;
+	text-decoration:underline;
+}
+
+
+/* Layout */
+
+body {
+	background-color:#e5f2fb;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #222425;
+}
+
+.container {
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.header {
+	padding-top:28px;
+	background-image: url(../images/grey.png);
+	background-repeat: repeat-x;
+	background-position: 0px 94px;
+	height:110px;
+}
+.header img.logo {float:left}
+.header ul.nav {
+	float:right;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: italic;
+	padding-top:40px;
+}
+.header ul.nav li {
+	float:left;
+	margin-left:10px;
+	margin-right:10px;
+}
+.header ul.nav li a:link,
+.header ul.nav li a:visited {
+	color: #2f3233;
+	text-decoration:none;
+}
+.header ul.nav li a:hover {
+	color:#000000;
+}
+
+.banner {
+	background-image: url(../images/fuzz-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	min-height:320px;
+}
+.banner .inner {
+	padding:20px 400px 10px 20px;
+}
+.banner .inner p {
+	line-height:18px;
+	font-style: italic;
+}
+
+.products {
+	background-color:#f8fcfe;
+	background-image: url(../images/products-bg.png);
+	background-repeat: repeat-y;
+	background-position: center top;
+}
+.products .product {
+	float:left;
+	width:320px;
+}
+.products .product .productImage {
+	text-align:center;
+	height:186px;
+}
+.products .product .productDetails {
+	float:left;
+	padding-left:20px;
+	width:210px;
+}
+.products .productsBot {
+	clear:both;
+	height:10px;
+	background-color:#f8fcfe;
+}
+
+.footer {
+	font-size: 11px;
+	color: #5c6165;
+	padding:15px;
+}
+.footer a:link,
+.footer a:visited,
+.footer a:hover {
+	text-decoration:none;
+	color: #5c6165;
+}
+
+
+/* Headings */
+
+h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-bottom:10px;
+}
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: italic;
+}
+
